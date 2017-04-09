@@ -147,10 +147,9 @@ h1 {
 }
 h2 {
 	float: right;
-	width: 40%;
 	margin: 0;
 	margin-bottom: 5px;
-	padding: 5px;
+	padding: 5px 20px 5px 20px;
 	background-color: #cc0099;
 	color: #ffffff;
 	font-size: 90%;
@@ -166,9 +165,11 @@ h2 {
 #Sushi {
 	background-color: #ffcc66;
 	color: #333333;
+		padding: 5px 35px;
 }
 #Beef {
 	background-color: #993333;
+	padding: 5px 40px;
 }
 #Chicken {
 	background-color: #ff9999;
