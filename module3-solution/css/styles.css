@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-left: 0px;
+	margin: 0px;
+
+}
+.text-center {
+	margin: 0 auto;
+	color:#333366;
+	text-transform: uppercase;
+}
+.text_box_1,  .text_box_2, .text_box_3 {
+		margin: 12px auto 0px auto;
+	    background-color: #333366;
+	    color:#ffffff;
+	    padding: 10px;
+}
+.text_box_1 h2, .text_box_2 h2, .text_box_3 h2 {
+	margin-top:10px auto;
+	font-size: 1.5em;
+}
+.text_box_1 p,  .text_box_2 p, .text_box_3 p {
+	text-align: left;
+}
+.col-lg-4, .col-md-4, .col-sm-6, .col-sm-12, .col-xs-12 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.navbar-default, .navbar-collapse, .navbar-header, .navbar-default, .navbar-form {
+	background-color: #333366;
+	color: #ffffff;
+	border-radius: 0px;
+
+}
+ .navbar-brand h1 {
+ 	margin: 0 auto;
+ 	color: #ffffff;
+ }
+ @media (max-width: 767px){
+ .text_box_1, .text_box_2, .text_box_3 {
+     width: 90%;
+ }
+ .navbar-brand h1 {
+ 	margin-left: 30px;
+ 	font-size: 180%;
+ }
+.navbar-header {
+ 	padding-bottom: 10px;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.text_box_1, .text_box_2 {
+		height: 320px;
+	}
+}
+@media (min-width: 992px){
+	.text_box_1, .text_box_2, .text_box_3 {
+		height: 390px;
+	}
+}
+#collapsable-nav, .navbar-collapse collapse in {
+	border: hidden;
+}
+#nav-list a {
+	color: #ffffff;
+}
+#nav-list a:hover {
+  background: #ccccff;
+  color: #333366;
+  width: 100%;
+  }
+  .navbar-default .navbar-toggle:focus, .navbar-default:focus .navbar-toggle:focus .icon-bar:focus{
+    background-color: #ccccff;
+    border: 1px solid #333366;
+}
+.visible a {
+	width: 100%;
+	margin: 0 auto;
+}
+.navbar-header {
+	padding-bottom: 15px;
+}
+.navbar-toggle {
+	margin-top: 15px;
+	color:#ffffff;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+  }
+ .navbar-default:hover .navbar-toggle:hover, .navbar-default:hover .navbar-toggle:hover, button.navbar-toggle:hover, .icon-bar:hover {
+ 	border:1px solid #333366;
+ 	background-color: #ccccff;
+ }
+  
+
