@@ -1,43 +1,38 @@
-// var string = "Hello";
-// string += " World";
-// // string = string + " World"
-// console.log(string + "!");
+function makeMultiplier (multiplier) {
 
-// console.log((5 + 4) / 3);
-// console.log(undefined / 5);
-// function test1 (a) {
-// 	console.log( a / 5);
-// }
-// test1();
+	function b() {
+		console.log("Multiplier is: " + multiplier);
+	}
+b();
 
-
-// var x = 4, y = 4;
-// if (x==y) {
-// 	console.log("x=4 is equal to y=4");
-// }
-
-// x = "4";
-// if (x==y) {
-// 	console.log("x='4' is equal to y=4");
-// 	}
-
-// if (x === y) {
-// 	console.log("Strict: x='4' is equal to y=4");
-// }
-// else {
-// 	console.log("Strict: x='4' is NOT equal to y=4");
-// }
-
-if ( false || null || undefined || "" || 0 || NaN) {
-	console.log("This line won't ever execute");
-}
-else {
-	console.log("All false");
+	return (
+		function(x) {
+			return multiplier * x;
+		}
+		);
 }
 
-if (true && "hello" && 1 && -1 && "false") {
-	console.log("All true");
-}
+var doubleAll = makeMultiplier(2)
+console.log(doubleAll(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
